@@ -1,31 +1,37 @@
-# Electric Vehicle Powertrain Modeling, Control and CAN Communication Simulation
+# Electric Vehicle Powertrain Modeling, Control, and CAN Communication Simulation
 
-This project presents a **MATLAB/Simulink-based electric vehicle powertrain model** including **longitudinal dynamics**, **control system implementation**, and **CAN communication simulation** for ECU signal exchange.
-
----
+This project presents a **MATLAB/Simulink-based electric vehicle powertrain model** incorporating longitudinal dynamics, control system design, and CAN communication for ECU signal exchange.
 
 ## 🔧 Project Structure
 | File | Description |
 |------|--------------|
-| `EV_Powertrain.slx` | Simulink model of the electric vehicle powertrain and CAN communication blocks |
-| `Graph.m` | MATLAB script for plotting simulation results (speed, torque, power, etc.) |
-| `Electric Vehicle Powertrain Modeling.docx` | Technical report explaining system modeling, parameters, and test results |
-| `README.md` | Project description file |
-
----
+| **EV_Powertrain.slx** | Simulink model including vehicle dynamics, torque control, and CAN network blocks |
+| **Graph.m** | MATLAB script for post-processing and visualization (speed, torque, power, etc.) |
+| **Technical_Report.pdf** | Detailed documentation of modeling approach, parameters, and simulation results |
+| **README.md** | Project description and execution guide |
 
 ## 🚗 Key Features
-- Longitudinal dynamics modeled with **F = m·a** approach  
-- Includes **motor torque generation**, **aerodynamic drag**, and **rolling resistance**  
-- Integrated **CAN communication layer** for data exchange between subsystems  
-- **PID-based control** tuning for torque and speed loops  
-- Post-processing in MATLAB for result visualization
-
----
+- Longitudinal vehicle dynamics modeled using **Newton’s Second Law (F = m·a)**  
+- Includes **motor torque generation**, aerodynamic drag, and rolling resistance  
+- Integrated **CAN communication** for subsystem data exchange  
+- **PID-based speed and torque control loops**  
+- Post-processing in MATLAB for result visualization  
 
 ## 🧰 Tools & Toolboxes
 - MATLAB R2023b  
 - Simulink  
+- Vehicle Dynamics Blockset  
+- Vehicle Network Toolbox  
+- Simulink Control Design  
+
+## 📊 Simulation Outputs
+Key results include:
+- Vehicle speed–time and torque–response plots  
+- Power flow of motor and battery  
+- CAN bus transmitted and received signal visualization  
+
+To reproduce results, open *EV_Powertrain.slx* and run **Graph.m** after simulation.
+
 - Vehicle Dynamics Blockset  
 - Vehicle Network Toolbox  
 - Simulink Control Design  
