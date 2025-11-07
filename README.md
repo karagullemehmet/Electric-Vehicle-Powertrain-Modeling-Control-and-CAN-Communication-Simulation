@@ -18,7 +18,7 @@ This project presents a **MATLAB/Simulink-based electric vehicle powertrain mode
 - Post-processing in MATLAB for result visualization  
 
 ## 🧰 Tools & Toolboxes
-- MATLAB R2023b  
+- MATLAB R2023a  
 - Simulink  
 - Vehicle Dynamics Blockset  
 - Vehicle Network Toolbox  
